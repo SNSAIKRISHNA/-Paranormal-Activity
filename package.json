@@ -1,0 +1,20 @@
+{
+  "name": "paranormal-activity",
+  "version": "1.0.0",
+  "description": "This Project you can report the Paranormal Activity Happening around you.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SNSAIKRISHNA/-Paranormal-Activity.git"
+  },
+  "author": "SAIKRISHNA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SNSAIKRISHNA/-Paranormal-Activity/issues"
+  },
+  "homepage": "https://github.com/SNSAIKRISHNA/-Paranormal-Activity#readme"
+}

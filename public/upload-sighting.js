@@ -20,9 +20,9 @@ form.addEventListener("submit", async function (event) {
     formMessageText.textContent = "Please select a date and time!"
     return
   }
-  // Convert the string to a JavaScript Date object
+ 
   const date = new Date(isoDateString)
-  // Format the date to a readable string
+  
   const options = {
     year: "numeric",
     month: "long",
@@ -41,7 +41,7 @@ form.addEventListener("submit", async function (event) {
   }
 
   try {
-    // Send form data using fetch API
+    
     formMessageText.textContent = ""
     const response = await fetch("./api", {
       method: "POST",

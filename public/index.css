@@ -1,17 +1,8 @@
-
-/* ============================== */
-/*         RESET STYLES           */
-/* ============================== */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* ============================== */
-/*             BODY               */
-/* ============================== */
 
 body {
     position: relative;
@@ -22,8 +13,6 @@ body {
     color: #f9f9f9;
     min-height: 100vh;
 }
-
-/* Background Image Overlay */
 body::before {
     position: absolute;
     content: "";
@@ -38,10 +27,6 @@ body::before {
     opacity: 0.15;
     background-attachment: fixed;
 }
-
-/* ============================== */
-/*            TYPOGRAPHY          */
-/* ============================== */
 
 h1, h2, h3 {
     font-family: "Frijole", serif;
@@ -140,9 +125,6 @@ footer p{
     text-align: center;
 }
 
-/* ============================== */
-/*         NAVIGATION MENU        */
-/* ============================== */
 
 nav a {
     color: #fff;

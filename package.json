@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SNSAIKRISHNA/-Paranormal-Activity/issues"
   },
-  "homepage": "https://github.com/SNSAIKRISHNA/-Paranormal-Activity#readme"
+  "homepage": "https://github.com/SNSAIKRISHNA/-Paranormal-Activity#readme",
+  "dependencies": {
+    "sanitize-html": "^2.17.0"
+  }
 }
